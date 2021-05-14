@@ -1,0 +1,87 @@
+ul li{
+    list-style-type:none;
+}
+#container {
+    position: absolute;
+    bottom: 0px !important;
+    left: 0px;
+    background-color: #222;
+    color: #fff;
+    font-weight: 100;
+    padding: 8px 0;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .3);
+    width:100%;
+    height:30px;
+    display:flex;
+}
+#container ul.content,ul.dialog_content{
+    width:40%;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+}
+#container ul.content li{
+    width:105px;
+    height:105px;
+    background:url('./api/assets/files/icons.png?id=46758545') no-repeat;
+    background-position-x: -105px;
+    transform: scale(0.3);
+    background-size:cover;
+}
+#container ul.content li:nth-child(1){
+    background-position-x: 0px;
+}
+#container ul.content li:nth-child(1).active{
+    background-position-x: -105px;
+}
+#container ul.content li:nth-child(2){
+    background-position-x: -209px;
+}
+#container ul.content li:nth-child(3){
+    background-position-x: -421px;
+}
+#container ul.content li:nth-child(4){
+    background-position-x: -631px;
+}
+
+.dialog_container{
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    background-color: #222;
+    color: #fff;
+    font-weight: 100;
+    padding: 8px 0;
+    box-shadow: 0 0 16px rgba(0, 0, 0, .3);
+    width:100%;
+    height:30px;
+    display:flex;
+    transition:.3s all ease;
+    z-index:-1;
+}
+#container ul.dialog_content li{
+    width:105px;
+    height:105px;
+    background:url('./api/assets/files/colors.png?id=46756504') no-repeat;
+    background-position-x: -105px;
+    transform: scale(0.3);
+    background-size:cover;
+}
+#container ul.dialog_content li:nth-child(1){
+    background-position-x: 0px;
+}
+#container ul.dialog_content li:nth-child(1).active{
+    background-position-x: -105px;
+}
+#container ul.dialog_content li:nth-child(2){
+    background-position-x: -209px;
+}
+#container ul.dialog_content li:nth-child(3){
+    background-position-x: -421px;
+}
+#container ul.dialog_content li:nth-child(4){
+    background-position-x: -631px;
+}
+#colorpanel{
+    z-index:1;
+}
