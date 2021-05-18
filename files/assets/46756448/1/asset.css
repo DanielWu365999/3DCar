@@ -23,7 +23,7 @@ ul li{
 #container ul.content li{
     width:105px;
     height:105px;
-    background:url('../../46758545/1/icons.png?id=46758545') no-repeat;
+    background:url('../../3DCar/files/assets/46758545/1/icons.png?id=46758545') no-repeat;
     background-position-x: -105px;
     transform: scale(0.3);
     background-size:cover;
@@ -62,7 +62,7 @@ ul li{
 #container ul.dialog_content li{
     width:105px;
     height:105px;
-    background:url('../../46756504/1/colors.png?id=46756504') no-repeat;
+    background:url('../../3DCar/files/assets/46756504/1/colors.png?id=46756504') no-repeat;
     background-position-x: -105px;
     transform: scale(0.3);
     background-size:cover;
